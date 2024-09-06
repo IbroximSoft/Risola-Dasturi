@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RisolaOqishDasturi" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Home" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#405CBF</item>
+        <item name="android:statusBarColor">@color/lactic</item>
+        <item name="colorPrimaryVariant">#92405CBF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#2962FF</item>
+        <item name="colorSecondaryVariant">#0039CB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorError">#F44336</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:colorBackground">@color/lactic</item>
+        <item name="colorOnBackground">#92405CBF</item>
+    </style>
+
+    <style name="Theme.RisolaOqishDasturi" parent="Base.Theme.RisolaOqishDasturi" />
+</resources>
